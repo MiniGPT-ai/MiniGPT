@@ -1,0 +1,10 @@
+{
+    "vocab_size": 5000,
+    "block_size": 128,
+    "n_layers": 6,
+    "n_heads": 4,
+    "n_embd": 256,
+    "ffn_hidden_size": 1024,
+    "dropout": 0.1
+  }
+  

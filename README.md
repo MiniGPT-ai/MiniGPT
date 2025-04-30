@@ -1,4 +1,5 @@
-## License
+# MiniGPT Series
 
-- **Code**: MIT License (see `LICENSE`)
-- **Pretrained Weights**: Research-only license (see `WEIGHTS_LICENSE.md`)
+🔬 **MiniGPT-0-preview** — [View folder](MiniGPT-0-preview/)
+
+This is the initial research preview release of the MiniGPT series.
