@@ -4,11 +4,11 @@ from tokenizers import ByteLevelBPETokenizer
 
 # Load config, tokenizer, model
 config = MiniGPTConfig()
-tokenizer = ByteLevelBPETokenizer("/MiniGPT-0/tokenizer/vocab.json", "/MiniGPT-0/tokenizer/merges.txt")
+tokenizer = ByteLevelBPETokenizer("/MiniGPT-0-preview/tokenizer/vocab.json", "/MiniGPT-0-preview/tokenizer/merges.txt")
 config.vocab_size = tokenizer.get_vocab_size()
 
 model = MiniGPTModel(config)
-model.load_state_dict(torch.load("/MiniGPT-0/minigpt0-preview.pth", map_location="cpu"))
+model.load_state_dict(torch.load("/MiniGPT-0-preview/minigpt0-preview.pth", map_location="cpu"))
 model.eval()
 
 # Sampling function

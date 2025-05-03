@@ -7,8 +7,8 @@ from model import MiniGPTModel, MiniGPTConfig
 from torchinfo import summary
 
 # Hyperparameters
-TOKENIZER_PATH = "/MiniGPT-0/tokenizer"
-DATA_PATH      = "/MiniGPT-0/openassistant_raw.txt"
+TOKENIZER_PATH = "/MiniGPT-0-preview/tokenizer"
+DATA_PATH      = "/MiniGPT-0-preview/openassistant_raw.txt"
 BATCH_SIZE     = 32
 BLOCK_SIZE     = 128
 NUM_EPOCHS     = 3

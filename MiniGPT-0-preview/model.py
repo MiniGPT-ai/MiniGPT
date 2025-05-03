@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import json
 
 class MiniGPTConfig:
-    def __init__(self, path="/MiniGPT-0/config.json"):
+    def __init__(self, path="/MiniGPT-0-preview/config.json"):
         with open(path, "r") as f:
             cfg = json.load(f)
         self.vocab_size      = cfg["vocab_size"]
